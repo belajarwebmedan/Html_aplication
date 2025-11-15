@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+<body>
+    <style>
+        .menu{
+            display: flex;
+            /* border: solid; */
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap:wrap;
+
+            
+        }
+        .item{
+            margin: 5px;
+            padding: 5px;
+            width: 30%;
+        }
+        .item:hover{
+            background-color: chocolate;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+    <div class="menu">
+        <div class="item">Home</div>
+        <div class="item">Berita</div>
+        <div class="item">Kontak</div>
+        <div class="item">Tentang</div>
+    </div>
+</body>
+</html>
